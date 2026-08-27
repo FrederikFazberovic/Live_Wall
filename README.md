@@ -2,7 +2,7 @@
 # Live_Wall
 Wallpaper daemon for Hyprland that runs `mpvpaper` only when you're actively at
 your desk, plus a helper script to transcode 4K+ wallpapers down to your
-monitor's resolution using HEVC.  
+monitor's resolution using HEVC. Wallpapers are played randomly.  
 Transcoding wallpapers will reduce CPU usage and file size.  
 ### **This script supports only .mp4 files**
 ## Scripts
