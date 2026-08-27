@@ -25,7 +25,7 @@ programs:
 |-----------|------------|
 | [mpvpaper](https://github.com/GhostNaN/mpvpaper)  | GPL-3.0    |
 | [mpv](https://github.com/mpv-player/mpv)       | GPL-2.0    |
-| [ffmpeg](https://github.com/ffmpeg/ffmpeg)    | GPL-2.0+ (default config) |
+| [ffmpeg](https://github.com/ffmpeg/ffmpeg)    | GPL-2.0+ |
 | [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots)   | MIT        |
 
 The scripts themselves are not derivative works of these tools (they only
@@ -59,7 +59,9 @@ prompts for missing pieces, and writes a config file:
 
 ```bash
 git clone https://github.com/FrederikFazberovic/Live_Wall.git
-
+cd ./Live_Wall/
+chmod +x ./live_wall.sh 
+chmod +x ./transcode_wall.sh 
 ./live_wall.sh install
 ```
 
@@ -83,7 +85,7 @@ During install you'll be asked:
 The installer writes `~/.config/mpvpaper/live_wall.conf` with your choices.
 
 ## Autostart
-Add this into your hyprland config file
+Add this into your hyprland config file:
  ```bash 
 hl.on("hyprland.start", function()
     hl.exec_cmd("path/to/live_wall.sh")
