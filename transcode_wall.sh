@@ -7,18 +7,21 @@
 #   ./transcode_wall.sh                                  # scans ~/Videos/wallpapers
 #   ./transcode_wall.sh --dry-run                        # preview
 #   ./transcode_wall.sh "file:///path/with%20space.mkv"  # specific wallpaper
-#   ./transcode_wall.sh --from-stdin < list.txt          # paths/outputs ze stdin
-#   ./transcode_wall.sh --from-file list.txt             # paths/outputs ze souboru
-#   ./transcode_wall.sh --ext mkv --ext mp4              # only picked file types
+#   ./transcode_wall.sh --from-stdin < list.txt          # paths/URIs from stdin
+#   ./transcode_wall.sh --from-file list.txt             # paths/URIs from file
+#   ./transcode_wall.sh --ext mkv --ext mp4              # only certain extensions
 #   ./transcode_wall.sh --resolution 3840x2160           # own target resolution
 #   ./transcode_wall.sh --list-resolutions               # outputs resolutions trom hyprctl monitors
 #
 # Copyright (C) 2026
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
-# Tento program je svobodný software: můžete jej šířit a/nebo upravovat
-# podle ustanovení GNU General Public License, verze 3 nebo (dle vaší volby)
-# kterékoli pozdější verze. Viz LICENSE.
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version. See LICENSE.
+#
+# Developed with AI assistance (Claude)
 
 set -euo pipefail
 
