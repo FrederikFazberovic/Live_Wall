@@ -91,6 +91,7 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("path/to/live_wall.sh")
 end)
 ```
+Change **path/to/live_wall.sh** with your **actual path**.
 
 ## Configuration
 
