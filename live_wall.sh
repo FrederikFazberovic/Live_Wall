@@ -14,7 +14,7 @@
 # Config: top-of-file variables below, optionally overridden by
 #         ~/.config/mpvpaper/live_wall.conf (KEY=VALUE, one per line)
 #
-# Copyright (C) 2025
+# Copyright (C) 2026
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
 # This program is free software: you can redistribute it and/or modify
